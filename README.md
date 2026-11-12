@@ -29,7 +29,7 @@ Publish from `main`, folder `/ (root)`, under **Settings → Pages**. `.nojekyll
 - `assets/`: 12 original manuscript figures and the paper PDF. The Section 3.3 flowchart and all supplementary comparisons are shown inline; clicking a figure optionally opens a zoomable view.
 - `assets/fonts/`: Computer Modern Unicode webfonts and their SIL Open Font License.
 
-The page includes five tables and extended SurroundOcc, boundary-distance, boundary-map, and Gaussian-overlap results from the supplement. Its centered paper header and figure-first presentation were informed by the [Nerfies](https://nerfies.github.io/) and [Mip-Splatting](https://niujinshuchong.github.io/mip-splatting/) research pages; the HTML, CSS, and JavaScript are original.
+The page includes two benchmark tables and extended SurroundOcc, boundary-distance, boundary-map, and Gaussian-overlap results from the supplement. Its centered paper header and figure-first presentation were informed by the [Nerfies](https://nerfies.github.io/) and [Mip-Splatting](https://niujinshuchong.github.io/mip-splatting/) research pages; the HTML, CSS, and JavaScript are original.
 
 The source manuscript used for this page is Overleaf commit `100e050d071f188058fdc3cb74dcce650c5ed433` (checked November 12, 2026). The PDF is the prepared author manuscript and supplement built from that same revision. Numerical results reproduce the manuscript's reported evaluation, not a claim about an independently verified current leaderboard. No conference acceptance or arXiv identifier is asserted.
 
