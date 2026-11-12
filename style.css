@@ -67,7 +67,7 @@ h1 { font-size: clamp(31px, 3.4vw, 47px); line-height: 1.17; font-weight: 700; l
 .paper-links a { display: inline-flex; align-items: center; gap: 8px; border-radius: 25px; padding: 7px 19px; color: #fff; background: #33333b; font-size: 16px; line-height: 1.5; transition: background .2s, transform .2s; }
 .paper-links a:hover { background: var(--accent); text-decoration: none; transform: translateY(-2px); }
 .cite-symbol { font-weight: bold; font-size: 28px; line-height: 15px; padding-top: 7px; }
-.teaser { width: min(1060px, calc(100% - 64px)); margin-top: 40px; }
+.teaser { width: min(800px, calc(100% - 64px)); margin-top: 40px; }
 .research-figure { margin: 0; }
 .research-figure>a { display: block; position: relative; cursor: zoom-in; border-radius: 2px; }
 .research-figure img { width: 100%; }
@@ -142,7 +142,7 @@ dialog::backdrop { background: #211d39b3; backdrop-filter: blur(5px); }
 .dialog-content img { width: 100%; max-width: none; }
 dialog>p { font-size: 13px; color: var(--muted); margin: 0; padding: 10px 20px; border-top: 1px solid var(--line); }
 body.modal-open { overflow: hidden; }
-@media (min-width: 1700px) { .wide { width: min(1280px, calc(100% - 100px)); } .teaser { width: 1120px; } .paper-header { margin-top: 62px; } h1 { font-size: 49px; } }
+@media (min-width: 1700px) { .wide { width: min(1280px, calc(100% - 100px)); } .teaser { width: 840px; } .paper-header { margin-top: 62px; } h1 { font-size: 49px; } }
 @media (max-width: 1000px) {
   .paper-header { width: calc(100% - 48px); margin-top: 40px; }
   h1 { font-size: 38px; }
